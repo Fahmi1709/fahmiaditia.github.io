@@ -1,0 +1,94 @@
+@media only screen and (max-width: 600px) {
+    .my-photo img{
+        margin-top: 30px;
+    }
+    .my-header-text h1{
+        font-size: 1.8rem;
+    }
+    .my-design h2{
+        color: black;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+  }
+
+
+.tetap{
+	position: fixed;
+}
+
+.my-jumbotron{
+    height: 50vh;
+}
+
+.my-jumbotron-row{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.my-photo img{
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.my-jumbotron-text{
+    
+}
+
+.my-jumbotron-text p{
+    text-align: center;
+    color: white;
+}
+.my-jumbotron-text .p-1{
+    font-size: 3rem;
+}
+.my-jumbotron-text .p-2{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.my-gradient{
+    background-image: radial-gradient(circle at 100% 0%, #ff58b2 0, #ff4fb7 12.5%, #ff48ba 25%, #ff42b9 37.5%, #f23cb5 50%, #d537af 62.5%, #b934aa 75%, #a033a5 87.5%, #8832a0 100%);
+}
+
+
+/* HEADER */
+.my-header-text{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+
+/*my design*/
+.my-design img{
+    position: relative;
+    width: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 10px  rgb(139, 139, 139);
+}
+.my-design h2{
+    color: black;
+    margin-top: 60px;
+}
+.my-design{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+/* My footer */
+.my-footer{
+    margin-top: 30px;
+}
+
+
